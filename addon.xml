@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.tldextract" name="TLD extract" provider-name="tldextract" version="2.2.2">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+  </requires>
+  <extension library="lib" point="xbmc.python.module" />
+  <extension point="xbmc.addon.metadata">
+	<summary>Accurately separate the TLD from the registered domain and subdomains of a URL, using the Public Suffix List.</summary>
+	<description>Accurately separate the TLD from the registered domain and subdomains of a URL, using the Public Suffix List.</description>
+	<disclaimer lang="en" />
+	<language>en</language>
+    <platform>all</platform>
+	<license>BSD-style license</license>
+	<forum />
+	<website>https://github.com/john-kurkowski/tldextract</website>
+	<email />
+	<source>https://github.com/john-kurkowski/tldextract</source>
+  </extension>
+</addon>
